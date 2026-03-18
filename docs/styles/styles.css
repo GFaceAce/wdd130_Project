@@ -1,0 +1,41 @@
+body{
+    background-color: #802392;
+    color:#A5F8D3;
+    font-family:lobster 2
+}
+
+nav{
+    background-color:#995FA3  ;
+    display:grid;
+    grid-template-columns: 1fr, 2fr,1fr,fr;
+    width:80%;
+    margin:auto;
+    height:30px;
+}
+
+nav:hover{
+    background-color:#246A73  ;
+}
+
+.home{
+    grid-column:1;
+}
+
+.logo{
+    grid-column:2;
+}
+.Guernicanav{
+    grid-column:3;
+}
+.oldguitaristnav{
+    grid-column:4;
+}
+
+/* #802392 
+
+#246A73 
+
+995FA3 
+
+#A5F8D3  */
+
